@@ -9,5 +9,5 @@ Chris Wells-Hott
 
  // Brief Description of what you did. 
  Create a Endpoint that give a response from the CPU 
-
+rockpaperscissorslizard-hjf7chacademcjaj.westus-01.azurewebsites.net/RockPaperScissorLizardSpock/RockPapper
 // Person who Peer Reviewed your assignment

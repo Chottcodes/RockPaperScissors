@@ -10,6 +10,11 @@ namespace RockPaperScissors.Services
         public string[] choices = { "rock", "paper", "scissors", "lizard", "spock" };
         public string[] respownse = { "Boo!", "You Fail!", "Nice Try"};
         public string[] Winner = { "You Win!", "Victory!", "Cha-Ching" };
+        Random random = new();
+        public string RandomCPUChoice(){
+            return choices[random.Next(choices.Length)];
+        }
+        
         public string GamePlay(string Input)
         {
             for (int i = 0; i < choices.Length; i++)
@@ -24,7 +29,6 @@ namespace RockPaperScissors.Services
                 }
 
             }
-            Random random = new Random();
             string CPUChoice = choices[random.Next(choices.Length)];
             string lostRespownses = respownse[random.Next(respownse.Length)];
             string winnerRespownses = Winner[random.Next(Winner.Length)];

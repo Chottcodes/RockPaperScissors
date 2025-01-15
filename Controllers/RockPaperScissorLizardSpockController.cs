@@ -16,9 +16,9 @@ namespace RockPaperScissors.Controllers
             _rockPaperServices = rockPaperServices;
         }
         [HttpGet]
-        [Route("RockPapper/{Input}")]
-        public string CPUoutput(string Input){
-            return _rockPaperServices.GamePlay(Input);
+        [Route("RockPapper")]
+        public string CPUoutput(){
+            return _rockPaperServices.RandomCPUChoice();
         }
         
     }

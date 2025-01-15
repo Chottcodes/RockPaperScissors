@@ -8,7 +8,7 @@ Chris Wells-Hott
  Rock,Paper,Scissors,Lizard,Spock
 
  // Brief Description of what you did. 
- Create a Endpoint that give a response from the CPU 
+ Create a Endpoint that give a response from the CPU whenever the endpoint is called.
  # Azure Link
 [Azure Link:] (rockpaperscissorslizard-hjf7chacademcjaj.westus-01.azurewebsites.net/RockPaperScissorLizardSpock/RockPapper)
 // Person who Peer Reviewed your assignment: Gianpaolo Reinares
